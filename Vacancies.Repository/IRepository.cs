@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 using Vacancies.DataAccess.Entities;
 
-namespace Vacancies.DataAccess.Repository;
+namespace Vacancies.Repository;
 
 public interface IRepository<T> where T : BaseEntity
 {

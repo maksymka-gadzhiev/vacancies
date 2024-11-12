@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Vacancies.DataAccess.Entities;
 
-namespace Vacancies.DataAccess.Repository;
+namespace Vacancies.Repository;
 
 public class Repository<T> : IRepository<T> where T : BaseEntity
 {
